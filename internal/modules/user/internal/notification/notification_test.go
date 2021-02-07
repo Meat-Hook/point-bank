@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/app"
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/notification"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/notification"
 	"github.com/nats-io/nats.go"
 	"github.com/ory/dockertest/v3"
 	"github.com/stretchr/testify/require"

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/app"
 )
 
 func TestModule_VerificationEmail(t *testing.T) {

@@ -1,8 +1,8 @@
 package web
 
 import (
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/web/generated/models"
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/web/generated/models"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/app"
 	"github.com/go-openapi/swag"
 	"github.com/rs/zerolog"
 )

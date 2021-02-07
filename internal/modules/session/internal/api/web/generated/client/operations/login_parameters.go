@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/api/web/generated/models"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/api/web/generated/models"
 )
 
 // NewLoginParams creates a new LoginParams object

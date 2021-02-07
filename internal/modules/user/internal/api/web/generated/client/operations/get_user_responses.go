@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/web/generated/models"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/web/generated/models"
 )
 
 // GetUserReader is a Reader for the GetUser structure.

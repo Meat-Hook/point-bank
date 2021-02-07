@@ -3,7 +3,7 @@ package hash_test
 import (
 	"testing"
 
-	"github.com/Meat-Hook/back-template/internal/libs/hash"
+	"github.com/Meat-Hook/point-bank/internal/libs/hash"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/swag"
 	"github.com/go-openapi/validate"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/web/generated/models"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/web/generated/models"
 )
 
 // GetUsersReader is a Reader for the GetUsers structure.

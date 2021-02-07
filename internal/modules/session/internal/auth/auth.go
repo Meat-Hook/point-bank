@@ -5,7 +5,7 @@ package auth
 import (
 	"fmt"
 
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/app"
 	"github.com/o1egl/paseto/v2"
 )
 

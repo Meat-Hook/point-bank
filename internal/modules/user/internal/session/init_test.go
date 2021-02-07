@@ -3,7 +3,7 @@ package session_test
 import (
 	"testing"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/session"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/session"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 )

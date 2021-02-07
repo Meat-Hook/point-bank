@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Meat-Hook/back-template/internal/libs/metrics"
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/app"
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/repo"
+	"github.com/Meat-Hook/point-bank/internal/libs/metrics"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/repo"
 	"github.com/rs/xid"
 )
 

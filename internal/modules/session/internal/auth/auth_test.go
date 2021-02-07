@@ -3,8 +3,8 @@ package auth_test
 import (
 	"testing"
 
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/app"
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/auth"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/auth"
 	"github.com/rs/xid"
 	"github.com/stretchr/testify/require"
 )

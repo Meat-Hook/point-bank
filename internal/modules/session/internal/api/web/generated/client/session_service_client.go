@@ -6,7 +6,7 @@ package client
 // Editing this file might prove futile when you re-run the swagger generate command
 
 import (
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/api/web/generated/client/operations"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/api/web/generated/client/operations"
 	"github.com/go-openapi/runtime"
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"

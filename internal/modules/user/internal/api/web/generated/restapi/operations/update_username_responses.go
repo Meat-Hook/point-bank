@@ -11,7 +11,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/web/generated/models"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/web/generated/models"
 )
 
 // UpdateUsernameNoContentCode is the HTTP code returned for type UpdateUsernameNoContent

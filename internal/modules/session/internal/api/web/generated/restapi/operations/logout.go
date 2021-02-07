@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/app"
 )
 
 // LogoutHandlerFunc turns a function with the right signature into a logout handler

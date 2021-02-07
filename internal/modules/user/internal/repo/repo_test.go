@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Meat-Hook/back-template/internal/libs/metrics"
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/app"
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/repo"
+	"github.com/Meat-Hook/point-bank/internal/libs/metrics"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/repo"
 )
 
 func TestRepo_Smoke(t *testing.T) {

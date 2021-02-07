@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	session "github.com/Meat-Hook/back-template/internal/modules/session/client"
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/app"
+	session "github.com/Meat-Hook/point-bank/internal/modules/session/client"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/app"
 )
 
 var _ app.Auth = &Client{}

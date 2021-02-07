@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/app"
 )
 
 // UpdatePasswordHandlerFunc turns a function with the right signature into a update password handler

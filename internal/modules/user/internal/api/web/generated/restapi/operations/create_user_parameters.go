@@ -13,7 +13,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/web/generated/models"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/web/generated/models"
 )
 
 // NewCreateUserParams creates a new CreateUserParams object

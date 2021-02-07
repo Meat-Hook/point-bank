@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/api/web/generated/restapi"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/api/web/generated/restapi"
 	"github.com/go-openapi/loads"
 	"github.com/stretchr/testify/assert"
 )

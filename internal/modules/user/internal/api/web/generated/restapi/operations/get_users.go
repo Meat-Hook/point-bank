@@ -15,8 +15,8 @@ import (
 	"github.com/go-openapi/swag"
 	"github.com/go-openapi/validate"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/web/generated/models"
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/web/generated/models"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/app"
 )
 
 // GetUsersHandlerFunc turns a function with the right signature into a get users handler

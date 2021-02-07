@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/client"
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/rpc/pb"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/client"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/rpc/pb"
 	"github.com/golang/mock/gomock"
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/grpc/codes"

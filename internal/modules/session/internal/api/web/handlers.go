@@ -4,9 +4,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/api/web/generated/models"
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/api/web/generated/restapi/operations"
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/api/web/generated/models"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/api/web/generated/restapi/operations"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/app"
 	"github.com/go-openapi/swag"
 	"github.com/rs/zerolog"
 )

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/app"
-	user "github.com/Meat-Hook/back-template/internal/modules/user/client"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/app"
+	user "github.com/Meat-Hook/point-bank/internal/modules/user/client"
 )
 
 var (

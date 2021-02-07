@@ -3,10 +3,10 @@ package web_test
 import (
 	"testing"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/web"
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/web/generated/client/operations"
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/web/generated/models"
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/web"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/web/generated/client/operations"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/web/generated/models"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/app"
 	"github.com/go-openapi/swag"
 	"github.com/golang/mock/gomock"
 )

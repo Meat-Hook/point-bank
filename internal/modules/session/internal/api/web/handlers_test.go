@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/api/web"
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/api/web/generated/client/operations"
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/api/web/generated/models"
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/api/web"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/api/web/generated/client/operations"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/api/web/generated/models"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/app"
 	"github.com/golang/mock/gomock"
 )
 

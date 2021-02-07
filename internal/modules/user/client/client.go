@@ -5,8 +5,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/rpc/pb"
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/rpc/pb"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/app"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

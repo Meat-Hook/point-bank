@@ -4,8 +4,8 @@ package rpc
 import (
 	"context"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/rpc/pb"
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/rpc/pb"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/app"
 	prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
 	"google.golang.org/grpc"
 )

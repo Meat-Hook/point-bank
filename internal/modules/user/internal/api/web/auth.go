@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/app"
 	unautnError "github.com/go-openapi/errors"
 )
 

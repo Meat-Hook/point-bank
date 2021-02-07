@@ -1,4 +1,4 @@
-module github.com/Meat-Hook/back-template
+module github.com/Meat-Hook/point-bank
 
 go 1.15
 

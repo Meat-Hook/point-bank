@@ -25,7 +25,7 @@ import (
 	flags "github.com/jessevdk/go-flags"
 	"golang.org/x/net/netutil"
 
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/api/web/generated/restapi/operations"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/api/web/generated/restapi/operations"
 )
 
 const (

@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/web/generated/models"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/web/generated/models"
 )
 
 // UpdateUsernameReader is a Reader for the UpdateUsername structure.

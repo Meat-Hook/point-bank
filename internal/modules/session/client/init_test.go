@@ -6,9 +6,9 @@ import (
 	"net"
 	"testing"
 
-	librpc "github.com/Meat-Hook/back-template/internal/libs/rpc"
-	"github.com/Meat-Hook/back-template/internal/modules/session/client"
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/api/rpc/pb"
+	librpc "github.com/Meat-Hook/point-bank/internal/libs/rpc"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/client"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/api/rpc/pb"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"

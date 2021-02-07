@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/Meat-Hook/back-template/internal/modules/session/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/session/internal/app"
 )
 
 func TestModule_Login(t *testing.T) {

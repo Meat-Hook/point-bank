@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/app"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 )

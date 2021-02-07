@@ -9,11 +9,11 @@ import (
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/runtime"
 
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/api/web/generated/restapi/operations"
-	"github.com/Meat-Hook/back-template/internal/modules/user/internal/app"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/api/web/generated/restapi/operations"
+	"github.com/Meat-Hook/point-bank/internal/modules/user/internal/app"
 )
 
-//go:generate swagger generate server --target ../../generated --name ServiceUser --spec ../../../../../../../../../../../../../../var/folders/8m/ql24vlxd54x78711p7fm6zvr0000gn/T/swagger.yml806659975 --principal github.com/Meat-Hook/back-template/internal/modules/user/internal/app.Session --exclude-main --strict-responders
+//go:generate swagger generate server --target ../../generated --name ServiceUser --spec ../../../../../../../../../../../../../../var/folders/8m/ql24vlxd54x78711p7fm6zvr0000gn/T/swagger.yml806659975 --principal github.com/Meat-Hook/point-bank/internal/modules/user/internal/app.Session --exclude-main --strict-responders
 
 func configureFlags(api *operations.ServiceUserAPI) {
 	// api.CommandLineOptionsGroups = []swag.CommandLineOptionsGroup{ ... }
