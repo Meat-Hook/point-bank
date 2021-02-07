@@ -1,0 +1,90 @@
+version: '3.8'
+
+services:
+
+  prometheus:
+    image: prom/prometheus:v2.24.1
+    container_name: prometheus
+    ports:
+      - 9090:9090
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+    volumes:
+      - "./volume/prometheus-data:/prometheus/"
+      - "./config/prometheus/:/etc/prometheus/"
+    restart: always
+
+  user-service:
+    build:
+      context: ./internal/modules/user
+      dockerfile: Dockerfile
+    image: user-service
+    container_name: user-service
+    restart: always
+    command: "./user"
+    environment:
+      - "DB_NAME=postgres"
+      - "DB_USER=root"
+      - "DB_PASS=root"
+      - "DB_HOST=user-db"
+      - "DB_PORT=26257"
+      - "NATS=nats:4222"
+      - "SESSION_SRV=session-service:3000"
+      - "MIGRATE=true"
+    ports:
+      - "8080:8080"
+      - "8100:8100"
+
+  user-db:
+    container_name: user-db
+    image: cockroachdb/cockroach:v20.2.4
+    restart: always
+    ports:
+      - "26257:26257"
+      - "3500:8080"
+    volumes:
+      - "./volume/user-db-data:/cockroach/cockroach-data"
+    command:
+      - "start-single-node"
+      - "--insecure"
+
+  nats:
+    image: "nats:2.1.4" # This is the latest version at the moment.
+    container_name: nats
+    restart: always
+    ports:
+      - "4222:4222"
+
+  session-service:
+    build:
+      context: ./internal/modules/session
+      dockerfile: Dockerfile
+    image: session-service
+    container_name: session-service
+    restart: always
+    command: "./session"
+    environment:
+      - "DB_NAME=postgres"
+      - "DB_USER=root"
+      - "DB_PASS=root"
+      - "DB_HOST=session-db"
+      - "DB_PORT=26257"
+      - "AUTH_KEY=super-duper-secret-key"
+      - "USER_SRV=user-service:3000"
+      - "MIGRATE=true"
+    ports:
+      - "8081:8080"
+      - "8101:8100"
+
+  session-db:
+    container_name: session-db
+    image: cockroachdb/cockroach:v20.2.4
+    restart: always
+    ports:
+      - "25555:26257"
+      - "3505:8080"
+    volumes:
+      - "./volume/session-db-data:/cockroach/cockroach-data"
+    command:
+      - "start-single-node"
+      - "--insecure"
